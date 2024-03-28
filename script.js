@@ -1,4 +1,4 @@
-const slides=document.querySelectorAll(".page1 img");
+const slides=document.querySelectorAll(".slide");
 
 slides.forEach(function(slide,index){
     slide.style.left=`${index*100}%`
@@ -16,8 +16,12 @@ const goPrev=function(){
 
 function slideImage(){
     slides.forEach(function(slide){
+        if(counter>2){
+            counter=0;
+        }
+        else if(counter<0){
+            counter=2;
+        }
         slide.style.transform=`translateX(-${counter*100}%)`
     })
 }
-
-
