@@ -36,6 +36,13 @@ body::-webkit-scrollbar-thumb{
     overflow-x: auto;
     position: relative;
 }
+.scrolled {
+    background-color: white !important; 
+  }
+.scrolled button {
+    color: white !important; 
+    background-color: white;
+  }
 .flexcontainer{
     height: 100%;
     display: flex;
@@ -81,16 +88,25 @@ body::-webkit-scrollbar-thumb{
     font-family: a;
     height: 5vw;
     width: 100%;
-    /* color: white; */
-    color: black;
+    color: white;
     position: fixed;
     background-color:transparent;
     padding: 0vw 3vw;
     justify-content: space-between;
     z-index: 999;
 }
+.scrollednav{
+    top:0%;
+}
+.scrollednav1{
+    background-color: white;
+    color: black;
+}
+.nav img.invert {
+    filter: none; /* Revert the filter to its original state */
+}
 .nav img{
-    /* filter: brightness(0) invert(1) grayscale(1); */
+    filter: brightness(0) invert(1) grayscale(1);
     height: 65%;
     width: auto;
 }
