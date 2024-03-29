@@ -48,14 +48,14 @@ window.addEventListener('scroll', function() {
 
   window.addEventListener('scroll', function() {
     var nav = document.querySelector('.nav');
-    var navImg = document.querySelector('.nav img'); // Select the image within the navigation
+    var navImg = document.querySelector('.nav img'); 
 
     if (window.scrollY > 60) {
-      nav.classList.add('scrollednav1'); // Add the 'fixed' class when scrolling begins
-      navImg.classList.add('invert'); // Add the 'invert' class to the image when scrolling begins
+      nav.classList.add('scrollednav1'); 
+      navImg.classList.add('invert'); 
     } else {
-      nav.classList.remove('scrollednav1'); // Remove the 'fixed' class when scrolling back to the top
-      navImg.classList.remove('invert'); // Remove the 'invert' class from the image when scrolling back to the top
+      nav.classList.remove('scrollednav1');
+      navImg.classList.remove('invert'); 
     }
   });
 

@@ -346,4 +346,160 @@ body::-webkit-scrollbar-thumb{
 .page3{
     min-height: 100vh;
     width: 100%;
+    display: flex;
+    position: relative;
+}
+.leftpage3{
+    min-height: 100vh;
+    width: 50%;
+    /* background-color: #c45b34; */
+}
+.rightpage3{
+    min-height: 100%;
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+.textp3{
+    height: 50vh;
+    width: 32vw;
+    /* background-color: green; */
+    margin-left: 10vw;
+    margin-top: 27vh;
+}
+.textp3 h1{
+    font-family: b;
+    font-size: 4.2vw;
+    color: rgba(0, 0, 0, 0.81);
+    line-height: 5vw;
+}
+.imgcard1{
+    background-color: #C1D2C7;
+    height: 65.4vh;
+    width: 37.2vw;
+    margin-top: 27vh;
+    margin-left: 2vw;
+    border-radius: 2px;
+    font-family: a;
+    position: relative;
+}
+.textcard1{
+    padding-top: 31vh;
+    padding-left: 2vw;
+    width: 34vw;
+}
+.textcard1 h1{
+    font-weight: bold;
+    font-size: 2.3vw;
+}
+.textcard1 h3{
+    font-weight: lighter;
+    font-size: 1.44vw;
+    line-height: 2.1vw;
+}
+.textcard1 button{
+    background-color: transparent;
+    border-radius: 30px;
+    border: solid #000000;
+    height: 2.8vw;
+    width: 7.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: a;
+    font-size: 1.05vw;
+    margin-top: 3.5vh;
+}
+.imgcard1 img{
+    position: absolute;
+    right: 2vw;
+    top: -5.80vw;
+    height: 43.5vh;
+}
+.imgcard2{
+    background-color: #EEBB67;
+    height: 65.4vh;
+    width: 36vw;
+    margin-top: 27vh;
+    margin-left: 10vw;
+    border-radius: 2px;
+    font-family: a;
+    position: relative;
+}
+.imgcard2 img{
+    position: absolute;
+    right: 1.9vw;
+    top: -7.6vw;
+    height: 47.5vh;
+}
+.textcard2{
+    padding-top: 31vh;
+    padding-left: 2vw;
+    width: 34vw;
+}
+.textcard2 h1{
+    font-weight: bold;
+    font-size: 2.3vw;
+}
+.textcard2 h3{
+    font-weight: lighter;
+    font-size: 1.44vw;
+    line-height: 2.1vw;
+}
+.textcard2 button{
+    background-color: transparent;
+    border-radius: 30px;
+    border: solid #000000;
+    height: 2.8vw;
+    width: 7.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: a;
+    font-size: 1.05vw;
+    margin-top: 3.5vh;
+}
+
+.imgcard3{
+    background-color: #64939A;
+    height: 65.4vh;
+    width: 36vw;
+    margin-top: 56vh;
+    margin-left: 3vw;
+    border-radius: 2px;
+    font-family: a;
+    position: relative;
+    margin-bottom: 9vw;
+}
+.imgcard3 img{
+    position: absolute;
+    right: 1.9vw;
+    top: -2.3vw;
+    height: 40vh;
+}
+.textcard3{
+    padding-top: 36vh;
+    padding-left: 2vw;
+    width: 34vw;
+}
+.textcard3 h1{
+    font-weight: bold;
+    font-size: 2.3vw;
+}
+.textcard3 h3{
+    font-weight: lighter;
+    font-size: 1.44vw;
+    line-height: 2.1vw;
+}
+.textcard3 button{
+    background-color: transparent;
+    border-radius: 30px;
+    border: solid #000000;
+    height: 2.8vw;
+    width: 7.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: a;
+    font-size: 1.05vw;
+    margin-top: 3.5vh;
 }
